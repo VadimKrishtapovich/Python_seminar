@@ -35,6 +35,6 @@ comment
 # Output:
 # 2
 
-n = int(input('Введите число: '))
-m = int(input('Введите число: '))
-print(m // n + int(m % n > 0))
+# n = int(input('Введите число: '))
+# m = int(input('Введите число: '))
+# print(m // n + int(m % n > 0))
