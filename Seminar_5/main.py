@@ -83,18 +83,18 @@
 # 5 -> 1 2 3 4 5
 # 5 4 3 2 1
 
-def f(n):
-    if n == 0:
-        return ''
-    x = int(input("x = "))
-    return f(n - 1) + str(x) + ' '
+# def f(n):
+#     if n == 0:
+#         return ''
+#     x = int(input("x = "))
+#     return f(n - 1) + str(x) + ' '
 
 
-n = int(input("Введите число: "))
-print(f(n))
+# n = int(input("Введите число: "))
+# print(f(n))
 
-f(4)
-f(3) + 1
-f(2) + 2
-f(1) + 3
-f(0) + 4
+# f(4)
+# f(3) + 1
+# f(2) + 2
+# f(1) + 3
+# f(0) + 4
