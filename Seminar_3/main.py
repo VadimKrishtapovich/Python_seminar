@@ -131,20 +131,20 @@
 #         set1.add(v)
 # print(set1)
 
-def find_indices_in_range(lst, min_number, max_number):
-    indices = []
-    for i, num in enumerate(lst):
-        if min_number <= num <= max_number:
-            indices.append(i)
-    return indices
+# def find_indices_in_range(lst, min_number, max_number):
+#     indices = []
+#     for i, num in enumerate(lst):
+#         if min_number <= num <= max_number:
+#             indices.append(i)
+#     return indices
 
-list_1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
-min_number = 0
-max_number = 10
+# list_1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
+# min_number = 0
+# max_number = 10
 
-result = find_indices_in_range(list_1, min_number, max_number)
-for index in result:
-    print(index)
+# result = find_indices_in_range(list_1, min_number, max_number)
+# for index in result:
+#     print(index)
 
 
 
