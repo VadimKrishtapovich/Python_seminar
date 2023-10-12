@@ -97,13 +97,13 @@
 # конца сделать это задание. Они решили так: у кого будет меньше ошибок в коде, тот и выиграл спор. За помощью товарищи
 # обратились к Вам, студентам.
 
-# n = int(input())
-# max_n = n
-# while n != 0:
-#     n = int(input())
-#     if n > max_n:
-#         max_n = n
-# print(max_n)
+n = int(input())
+max_n = n
+while n != 0:
+    n = int(input())
+    if n > max_n:
+        max_n = n
+print(max_n)
 
 
 
